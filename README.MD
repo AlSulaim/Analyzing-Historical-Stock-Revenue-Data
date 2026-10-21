@@ -1,5 +1,5 @@
 Tesla and GameStop Stock Analysis 📈
-Overview
+
 
 This project analyzes the historical stock prices and revenue of Tesla (TSLA) and GameStop (GME) using Python. It retrieves historical stock data, extracts revenue data from web pages, and visualizes both datasets using interactive charts.
 
