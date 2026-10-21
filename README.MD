@@ -7,29 +7,43 @@ The project allows users to select a company and view its historical share price
 
 Features
 Stock Data Retrieval: Fetches historical stock prices using the yfinance library.
+
 Web Scraping: Extracts historical revenue data using BeautifulSoup, requests, and pandas.
+
 Data Cleaning: Removes currency symbols, commas, and empty revenue values.
+
 Interactive Visualization: Creates charts using Plotly to display historical share prices and revenue.
+
 Company Selection: Allows users to choose between Tesla and GameStop through a command-line menu.
+
 HTML Export: Saves the generated interactive chart as an HTML file.
+
 Technologies Used
+
 Python
+
 yfinance
+
 BeautifulSoup
+
 pandas
+
 requests
+
 Plotly
+
 Kaleido
-Project Structure
-.
-├── main.py
-├── gme_graph.html
-└── README.md
+
+
 
 main.py: Contains the stock analysis, web scraping, data cleaning, and visualization functions.
+
 gme_graph.html: An example of the exported interactive stock analysis chart. The generated filename is the same for both companies.
+
 README.md: Project documentation.
+
 Installation
+
 1. Clone the Repository
 git clone <repository-url>
 cd <repository-folder>
@@ -77,7 +91,9 @@ Function	Description
 make_graph()	Creates and exports the stock price and revenue charts.
 tesla_analyze()	Retrieves Tesla stock data and extracts its revenue data.
 gme_analyze()	Retrieves GameStop stock data and extracts its revenue data.
+
 Data Sources
+
 Stock Prices: Retrieved using Yahoo Finance through yfinance.
 Tesla Revenue: Extracted from the IBM Skills Network educational dataset.
 GameStop Revenue: Extracted from the IBM Skills Network educational dataset.
@@ -93,6 +109,3 @@ Allow users to select custom date ranges.
 Save separate HTML files for Tesla and GameStop.
 Improve error handling for network failures and missing data.
 Add additional financial metrics and comparisons.
-License
-
-This project is intended for educational purposes. Add a license file if you plan to distribute the project publicly.
